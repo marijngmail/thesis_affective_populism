@@ -1,0 +1,40 @@
+#Functions used from Altimis via https://github.com/Altimis/Scweet accessed 5 May 2022
+from Scweet.scweet import scrape
+from Scweet.user import get_user_information, get_users_following, get_users_followers
+
+Data = scrape(since="2020-09-17", until="2021-03-17", from_account="F_azarkan", interval=1, headless=False,
+              display_type="Latest", save_images=False, filter_replies=True, proximity=False)
+Data = scrape(since="2020-09-17", until="2021-03-17", from_account="thierrybaudet", interval=1, headless=False,
+              display_type="Latest", save_images=False, filter_replies=True, proximity=False)             
+Data = scrape(since="2020-09-17", until="2021-03-17", from_account="DassenLaurens", interval=1, headless=False,
+              display_type="Latest", save_images=False, filter_replies=True, proximity=False)              
+Data = scrape(since="2020-09-17", until="2021-03-17", from_account="Eerdmans", interval=1, headless=False,
+              display_type="Latest", save_images=False, filter_replies=True, proximity=False)  
+Data = scrape(since="2020-09-17", until="2021-03-17", from_account="MinPres", interval=1, headless=False,
+              display_type="Latest", save_images=False, filter_replies=True, proximity=False)
+Data = scrape(since="2020-09-17", until="2021-03-17", from_account="SigridKaag", interval=1, headless=False,
+              display_type="Latest", save_images=False, filter_replies=True, proximity=False)              
+Data = scrape(since="2020-09-17", until="2021-03-17", from_account="WBHoekstra", interval=1, headless=False,
+              display_type="Latest", save_images=False, filter_replies=True, proximity=False)             
+Data = scrape(since="2020-09-17", until="2021-03-17", from_account="MarijnissenL", interval=1, headless=False,
+              display_type="Latest", save_images=False, filter_replies=True, proximity=False)              
+Data = scrape(since="2020-09-17", until="2021-03-17", from_account="PloumenLilianne", interval=1, headless=False,
+              display_type="Latest", save_images=False, filter_replies=True, proximity=False)              
+Data = scrape(since="2020-09-17", until="2021-03-17", from_account="jesseklaver", interval=1, headless=False,
+              display_type="Latest", save_images=False, filter_replies=True, proximity=False)              
+Data = scrape(since="2020-09-17", until="2021-03-17", from_account="estherouwehand", interval=1, headless=False,
+              display_type="Latest", save_images=False, filter_replies=True, proximity=False)              
+Data = scrape(since="2020-09-17", until="2021-03-17", from_account="gertjansegers", interval=1, headless=False,
+              display_type="Latest", save_images=False, filter_replies=True, proximity=False)              
+Data = scrape(since="2020-09-17", until="2021-03-17", from_account="keesvdstaaij", interval=1, headless=False,
+              display_type="Latest", save_images=False, filter_replies=True, proximity=False)
+Data = scrape(since="2020-09-17", until="2021-03-17", from_account="lientje1967", interval=1, headless=False,
+              display_type="Latest", save_images=False, filter_replies=True, proximity=False)              
+Data = scrape(since="2020-09-17", until="2021-03-17", from_account="SylvanaBIJ1", interval=1, headless=False,
+              display_type="Latest", save_images=False, filter_replies=True, proximity=False)
+Data = scrape(since="2020-09-17", until="2021-03-17", from_account="LianedenHaan", interval=1, headless=False,
+              display_type="Latest", save_images=False, filter_replies=True, proximity=False)
+Data = scrape(since="2020-09-17", until="2021-03-17", from_account="geertwilderspvv", interval=1, headless=False,
+              display_type="Latest", save_images=False, filter_replies=True, proximity=False)              
+              
+              
